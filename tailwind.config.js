@@ -12,8 +12,8 @@ module.exports = {
         extend: {
             colors: {
                 blue: colors.sky,
-                gray: colors.slate,
-                purple: colors.violet,
+                gray: colors.black,
+                purple: '#313131',
             },
             fontFamily: {
                 merriweather: ['Merriweather', ...defaultTheme.fontFamily.serif],

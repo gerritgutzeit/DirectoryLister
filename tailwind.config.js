@@ -12,10 +12,10 @@ module.exports = {
         extend: {
             colors: {
                 blue: {
-                        100: '#c7c7c7',
-                        200: '#c7c7c7',
-                        300: '#c7c7c7',
-                        400: '#c7c7c7',
+                        100: '#ededed',
+                        200: '#ededed',
+                        300: '#ededed',
+                        400: '#ededed',
                         500: '#c7c7c7',
                         600: '#c7c7c7',
                         700: '#c7c7c7',

@@ -51,3 +51,5 @@ zip: # Generate zip file
 		--recurse-paths artifacts/$(ARTIFACT_NAME).zip $(ARTIFACT_FILES)
 
 artifacts: clear-assets production tar zip # Generate release artifacts
+
+build: clear-assets prod

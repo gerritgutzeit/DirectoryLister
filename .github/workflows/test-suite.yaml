@@ -148,8 +148,12 @@ jobs:
         uses: actions/upload-artifact@v3.1.1
         with:
           # Artifact name
-          name: v${{ steps.vars.outputs.tag }}
+          name: DirectoryLister-v${{ steps.vars.outputs.tag }}
           # A file, directory or wildcard pattern that describes what to upload
           path: |
-            artifacts/DirectoryLister-${{ steps.vars.outputs.tag }}.tar.gz
-            artifacts/DirectoryLister-${{ steps.vars.outputs.tag }}.zip
+            app
+            .env.example
+            directory-lister.svg
+            index.php
+            LICENSE
+            README.md
